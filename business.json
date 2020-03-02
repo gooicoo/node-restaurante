@@ -1,0 +1,52 @@
+Business {
+		id_business: 1,
+		nombre: 'Tropezon 2',
+		poblacion: 'Cornella de Llobregat',
+		direccion: 'calle bonavista 34',
+		codigo_postal: '08940',
+		telefono: 932345392,
+		horario:  [
+                  {'dow':2 , 'inicio':'9:00' , 'fin':'22:00'},
+                  {'dow':3 , 'inicio':'9:00' , 'fin':'22:00'},
+                  {'dow':4 , 'inicio':'9:00' , 'fin':'22:00'},
+                  {'dow':5 , 'inicio':'9:00' , 'fin':'23:30'},
+                  {'dow':6 , 'inicio':'10:00' , 'fin':'23:30'},
+                  {'dow':7 , 'inicio':'10:00' , 'fin':'16:00'},
+			        ],
+		cordenadas: " 32º 43' 45'' N / 06º 98' 43'' E ",
+		categoria: ['bar' , 'restaurante' , 'burger' , 'bocata'],
+		producto: [
+			          {
+                    'nombre' : {  'es':'bocadillo de pinchos', 'en':'skewer snack' },
+                    'descripcion' : { 'es':'bocadillo con pinchos de carne y queso', 'en':'sandwich with meat and cheese skewers' },
+                    'categoria': ['bocata'],
+                    'precio': 6.95,
+                    'foto':'bocataPinchos.jpg',
+                    'stock':'ture',
+                    'extras': 
+                              [
+                                  { 
+                                    'nombre': {'es':'tomate','en':'tomato'}, 
+                                    'descripcion': {'es':'tomate rallado', 'en': 'grated tomato'},
+                                  },
+                              ],
+			           },
+
+			           {
+                    'nombre' : {  'es':'patatas bravas', 'en':'spicy potatoes' },
+                    'descripcion' : { 'es':'patatas cortadas a mano con salsa especial de la casa', 'en':'hand-cut potatoes with special house sauce' },
+                    'categoria': ['patatas', 'aperitivos'],
+                    'precio': 4.95,
+                    'foto':'patatasBravas.jpg',
+                    'stock':'ture',
+                    'extras': 
+                              [
+                                  { 
+                                    'nombre': {'es':'barbacoa','en':'barbecue'}, 
+                                    'descripcion': {'es':'salsa barbacoa', 'en': 'barbecue sauce'},
+                                  },
+                              ],
+                  },
+			        ]
+}
+						  
